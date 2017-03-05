@@ -10,14 +10,15 @@ There are plenty of other tutorials out there, but they all seem to have one of 
 1. Introduction to Torch's Tensor Library
 2. Computation Graphs and Automatic Differentiation
 3. Deep Learning Building Blocks: Affine maps, non-linearities, and objectives
-4. Word Embeddings: Encoding Lexical Semantics
-5. Training and Optimization
-6. Creating Network Components in Pytorch
+4. Optimization and Training
+5. Creating Network Components in Pytorch
+6. Word Embeddings: Encoding Lexical Semantics
 7. Making Decisions
 8. Sequence modeling and Long-Short Term Memory Networks
 
 My intention is for the tutorial to contain several fully working examples and exercises for students.  They will be:
 
+* A Bag of words classifier
 * An N-Gram language modeler using an MLP
 * A language modeler using an LSTM
 * A more complicated LSTM example: something with part of speech tagging
