@@ -12,16 +12,12 @@ There are plenty of other tutorials out there, but they all seem to have one of 
 3. Deep Learning Building Blocks: Affine maps, non-linearities, and objectives
 4. Optimization and Training
 5. Creating Network Components in Pytorch
+  * Example: Logistic Regression Bag-of-Words text classifier
 6. Word Embeddings: Encoding Lexical Semantics
-7. Making Decisions
-8. Sequence modeling and Long-Short Term Memory Networks
-
-My intention is for the tutorial to contain several fully working examples and exercises for students.  They will be:
-
-* A Bag of words classifier
-* An N-Gram language modeler using an MLP
-* A language modeler using an LSTM
-* A more complicated LSTM example: something with part of speech tagging
-* CBOW
-* Something with the network architecture depending on the sentence (probably a POS tagger with a viterbi decoder)
-* Something where you use an LSTM one step at a time (like a Stack LSTM, but not that because that is in the pset)
+  * Example: N-Gram Language Modeling
+  * Exercise: Continuous Bag-of-Words for learning word embeddings
+7. Sequence modeling and Long-Short Term Memory Networks
+  * Example: An LSTM for Part-of-Speech Tagging
+  * Exercise: LSTM Language Modeling
+8. Advanced: Making Dynamic Decisions
+  * Example: Bi-LSTM Conditional Random Field for named-entity recognition
