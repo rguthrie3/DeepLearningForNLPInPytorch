@@ -18,11 +18,10 @@ There are plenty of other tutorials out there, but they all seem to have one of 
   * Exercise: Continuous Bag-of-Words for learning word embeddings
 7. Sequence modeling and Long-Short Term Memory Networks
   * Example: An LSTM for Part-of-Speech Tagging
-  * Exercise: LSTM Language Modeling
+  * Exercise: Augmenting the LSTM tagger with character-level features
 8. Advanced: Making Dynamic Decisions
   * Example: Bi-LSTM Conditional Random Field for named-entity recognition
-  
+
 # To do:
 * Add decoding to the LSTM POS tagger example
 * Comment the Bi LSTM CRF example and provide more discussion
-* Write the LSTM LM exercise (I might change this: there are tons of LSTM LM examples out there...)
