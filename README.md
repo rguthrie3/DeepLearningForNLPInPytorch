@@ -21,7 +21,4 @@ There are plenty of other tutorials out there, but they all seem to have one of 
   * Exercise: Augmenting the LSTM tagger with character-level features
 8. Advanced: Making Dynamic Decisions
   * Example: Bi-LSTM Conditional Random Field for named-entity recognition
-
-# To do:
-* Add decoding to the LSTM POS tagger example
-* Comment the Bi LSTM CRF example and provide more discussion
+  * Exercise: A new loss function
