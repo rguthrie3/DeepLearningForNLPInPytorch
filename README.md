@@ -1,11 +1,3 @@
-# What is this tutorial?
-I am writing this tutorial specifically for a Natural Language Processing class at Georgia Tech, to ease into a problem set I wrote for the class on deep transition parsing.
-The problem set uses some advanced techniques.  The intention of this tutorial is to cover the basics, so that students can focus on the more challenging aspects of the problem set.
-
-There are plenty of other tutorials out there, but they all seem to have one of two problems, which is why I am writing my own:
-* They have a lot of content on computer vision and conv nets, which is irrelevant for our class and might just confuse students
-* Pytorch is brand new, and so many deep learning for NLP tutorials are in older frameworks, and usually not in dynamic frameworks like Pytorch, which have a totally different flavor.
-
 # Table of Contents:
 1. Introduction to Torch's Tensor Library
 2. Computation Graphs and Automatic Differentiation
@@ -22,6 +14,16 @@ There are plenty of other tutorials out there, but they all seem to have one of 
 8. Advanced: Making Dynamic Decisions
   * Example: Bi-LSTM Conditional Random Field for named-entity recognition
   * Exercise: A new loss function for discriminative tagging
+
+# What is this tutorial?
+I am writing this tutorial because, although there are plenty of other tutorials out there, they all seem to have one of two problems:
+* They have a lot of content on computer vision and conv nets, which is irrelevant for most NLP (although conv nets have been applied in cool ways to NLP problems)
+* Pytorch is brand new, and so many deep learning for NLP tutorials are in older frameworks, and usually not in dynamic frameworks like Pytorch, which have a totally different flavor.
+
+Specifically, I am writing this tutorial for a Natural Language Processing class at Georgia Tech, to ease into a problem set I wrote for the class on deep transition parsing.
+The problem set uses some advanced techniques.  The intention of this tutorial is to cover the basics, so that students can focus on the more challenging aspects of the problem set.
+The aim is to start with the basics and move up to linguistic structure prediction, which I feel is almost completely absent in other Pytorch tutorials.
+The general deep learning basics have short expositions.  Topics more NLP-specific received more in-depth discussions, although I have referred to other sources when I felt a full description would be reinventing the wheel and take up too much space.
 
 # References:
 * I learned a lot about deep structure prediction at EMNLP 2016 from [this](https://github.com/clab/dynet_tutorial_examples) tutorial on [Dynet](http://dynet.readthedocs.io/en/latest/), given by Chris Dyer and Graham Neubig of CMU and Yoav Goldberg of Bar Ilan University.  Dynet is a great package, especially if you want to use C++ and avoid dynamic typing.  The final BiLSTM CRF exercise and the character-level features exercise are things I learned from this tutorial.
