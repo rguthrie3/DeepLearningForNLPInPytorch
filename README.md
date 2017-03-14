@@ -21,4 +21,4 @@ There are plenty of other tutorials out there, but they all seem to have one of 
   * Exercise: Augmenting the LSTM tagger with character-level features
 8. Advanced: Making Dynamic Decisions
   * Example: Bi-LSTM Conditional Random Field for named-entity recognition
-  * Exercise: A new loss function
+  * Exercise: A new loss function for discriminative tagging
