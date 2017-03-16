@@ -29,3 +29,11 @@ The general deep learning basics have short expositions.  Topics more NLP-specif
 * I learned a lot about deep structure prediction at EMNLP 2016 from [this](https://github.com/clab/dynet_tutorial_examples) tutorial on [Dynet](http://dynet.readthedocs.io/en/latest/), given by Chris Dyer and Graham Neubig of CMU and Yoav Goldberg of Bar Ilan University.  Dynet is a great package, especially if you want to use C++ and avoid dynamic typing.  The final BiLSTM CRF exercise and the character-level features exercise are things I learned from this tutorial.
 * A great book on structure prediction is [Linguistic Structure Prediction](https://www.amazon.com/Linguistic-Structure-Prediction-Synthesis-Technologies/dp/1608454053/ref=sr_1_1?ie=UTF8&qid=1489510387&sr=8-1&keywords=Linguistic+Structure+Prediction) by Noah Smith.  It doesn't use deep learning, but that is ok.
 * The best deep learning book I am aware of is [Deep Learning](http://deeplearningbook.org), which is by some major contributors to the field and very comprehensive, although there is not an NLP focus.  It is free online, but worth having on your shelf.
+
+# Exercises:
+There are a few exercises in the tutorial, which are either to implement a popular model (CBOW) or augment one of my models.
+The character-level features exercise especially is very non-trivial, but very useful (I can't quote the exact numbers, but I have run the experiment before and usually the character-level features increase accuracy 2-3%).
+Since they aren't simple exercises, I will soon implement them myself and add them to the repo.
+
+# Suggestions:
+Please open a GitHub issue if you find any mistakes or think there is a particular model that would be useful to add.
