@@ -11,7 +11,7 @@
 7. Sequence modeling and Long-Short Term Memory Networks
   * Example: An LSTM for Part-of-Speech Tagging
   * Exercise: Augmenting the LSTM tagger with character-level features
-8. Advanced: Making Dynamic Decisions
+8. Advanced: Dynamic Toolkits, Dynamic Programming, and the BiLSTM-CRF
   * Example: Bi-LSTM Conditional Random Field for named-entity recognition
   * Exercise: A new loss function for discriminative tagging
 
