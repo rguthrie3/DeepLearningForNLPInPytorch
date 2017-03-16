@@ -16,9 +16,10 @@
   * Exercise: A new loss function for discriminative tagging
 
 # What is this tutorial?
-I am writing this tutorial because, although there are plenty of other tutorials out there, they all seem to have one of two problems:
-* They have a lot of content on computer vision and conv nets, which is irrelevant for most NLP (although conv nets have been applied in cool ways to NLP problems)
+I am writing this tutorial because, although there are plenty of other tutorials out there, they all seem to have one of three problems:
+* They have a lot of content on computer vision and conv nets, which is irrelevant for most NLP (although conv nets have been applied in cool ways to NLP problems).
 * Pytorch is brand new, and so many deep learning for NLP tutorials are in older frameworks, and usually not in dynamic frameworks like Pytorch, which have a totally different flavor.
+* The examples don't move beyond RNN language models and show the awesome stuff you can do when trying to do lingusitic structure prediction.  I think this is a problem, because Pytorch's dynamic graphs make structure prediction one of its biggest strengths.
 
 Specifically, I am writing this tutorial for a Natural Language Processing class at Georgia Tech, to ease into a problem set I wrote for the class on deep transition parsing.
 The problem set uses some advanced techniques.  The intention of this tutorial is to cover the basics, so that students can focus on the more challenging aspects of the problem set.
