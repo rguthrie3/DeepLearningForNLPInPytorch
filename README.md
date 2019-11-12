@@ -1,4 +1,7 @@
-# Table of Contents:
+# Deep Learning for NLP in PyTorch
+Robert Guthrie, 2017
+
+## Table of Contents:
 1. Introduction to Torch's Tensor Library
 2. Computation Graphs and Automatic Differentiation
 3. Deep Learning Building Blocks: Affine maps, non-linearities, and objectives
@@ -15,7 +18,7 @@
   * Example: Bi-LSTM Conditional Random Field for named-entity recognition
   * Exercise: A new loss function for discriminative tagging
 
-# What is this tutorial?
+## What is this tutorial?
 I am writing this tutorial because, although there are plenty of other tutorials out there, they all seem to have one of three problems:
 * They have a lot of content on computer vision and conv nets, which is irrelevant for most NLP (although conv nets have been applied in cool ways to NLP problems).
 * Pytorch is brand new, and so many deep learning for NLP tutorials are in older frameworks, and usually not in dynamic frameworks like Pytorch, which have a totally different flavor.
@@ -38,15 +41,15 @@ A few notes:
 * The same repo has some notes that include a section on shift-reduce dependency parsing, if you are looking for a written source to complement the problem set.
 * The link above might not work if it is taken down at the start of a new semester.
 
-# References:
+## References:
 * I learned a lot about deep structure prediction at EMNLP 2016 from [this](https://github.com/clab/dynet_tutorial_examples) tutorial on [Dynet](http://dynet.readthedocs.io/en/latest/), given by Chris Dyer and Graham Neubig of CMU and Yoav Goldberg of Bar Ilan University.  Dynet is a great package, especially if you want to use C++ and avoid dynamic typing.  The final BiLSTM CRF exercise and the character-level features exercise are things I learned from this tutorial.
 * A great book on structure prediction is [Linguistic Structure Prediction](https://www.amazon.com/Linguistic-Structure-Prediction-Synthesis-Technologies/dp/1608454053/ref=sr_1_1?ie=UTF8&qid=1489510387&sr=8-1&keywords=Linguistic+Structure+Prediction) by Noah Smith.  It doesn't use deep learning, but that is ok.
 * The best deep learning book I am aware of is [Deep Learning](http://deeplearningbook.org), which is by some major contributors to the field and very comprehensive, although there is not an NLP focus.  It is free online, but worth having on your shelf.
 
-# Exercises:
+## Exercises:
 There are a few exercises in the tutorial, which are either to implement a popular model (CBOW) or augment one of my models.
 The character-level features exercise especially is very non-trivial, but very useful (I can't quote the exact numbers, but I have run the experiment before and usually the character-level features increase accuracy 2-3%).
 Since they aren't simple exercises, I will soon implement them myself and add them to the repo.
 
-# Suggestions:
+## Suggestions:
 Please open a GitHub issue if you find any mistakes or think there is a particular model that would be useful to add.
