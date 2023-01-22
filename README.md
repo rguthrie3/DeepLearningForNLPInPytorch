@@ -1,6 +1,9 @@
-# Google Colab Adaptation (2023)
+# Deep Learning for Natural Language Processing with Pytorch
 
-[![](Google_Colaboratory.png)](https://colab.research.google.com/drive/1aomR0tLaPRuFLtnHeDIU3pYbY99loMf1?usp=sharing)
+## Google Colab Adaptation (2023)
+
+<center><a href="https://colab.research.google.com/drive/1aomR0tLaPRuFLtnHeDIU3pYbY99loMf1?usp=sharing"><img src="./Google_Colaboratory.png" width="450"></a></center>
+
 
 # Table of Contents:
 1. Introduction to Torch's Tensor Library
