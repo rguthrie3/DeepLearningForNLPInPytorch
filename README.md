@@ -1,8 +1,6 @@
-# Files
+# 2023 Google Colab Adapation
 
-- [Deep Learning for Natural Language Processing with Pytorch.ipynb](https://github.com/andrewrgarcia/DeepLearningForNLPInPytorch/blob/master/Deep%20Learning%20for%20Natural%20Language%20Processing%20with%20Pytorch.ipynb) - 2017 
-- [Deep_Learning_for_Natural_Language_Processing_with_Pytorch.ipynb](https://github.com/andrewrgarcia/DeepLearningForNLPInPytorch/blob/master/Deep_Learning_for_Natural_Language_Processing_with_Pytorch.ipynb) -  Google Colab (2023) adaptation. Preview at [**Colab Google**](https://colab.research.google.com/drive/1aomR0tLaPRuFLtnHeDIU3pYbY99loMf1?usp=sharing)
-
+[![](Google_Colaboratory.png)](https://colab.research.google.com/drive/1aomR0tLaPRuFLtnHeDIU3pYbY99loMf1?usp=sharing)
 
 
 # Table of Contents:
