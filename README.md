@@ -1,7 +1,6 @@
-# 2023 Google Colab Adapation
+# Google Colab Adaptation (2023)
 
 [![](Google_Colaboratory.png)](https://colab.research.google.com/drive/1aomR0tLaPRuFLtnHeDIU3pYbY99loMf1?usp=sharing)
-
 
 # Table of Contents:
 1. Introduction to Torch's Tensor Library
